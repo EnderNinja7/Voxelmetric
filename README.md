@@ -1,10 +1,9 @@
-# Voxelmetric
+# Vox(el)Met(ric)
 
-[![Join the chat at https://gitter.im/AlexSTV/Voxelmetric](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlexSTV/Voxelmetric?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Voxelmetric an open source voxel framework for unity3d. It's meant to be an easy to use, easy to extend solution for voxel games. Voxelmetric is currently in alpha so expect breaking changes and incomplete documentation. I am currently maintaining it alone and making changes as I learn but if anyone else wants to help they should feel free to make a pull request. Also use the issues to highlight bugs and suggest features.
+It's my fork of the [Voxelmetric](https://github.com/Voxelmetric/Voxelmetric) engine . I am trying to mprove Voxelmetric in my own little way. Some features I am trying to add are improved performance, walking, UI, AI.
 
-For more information and documentation visit [AlexSTV.com - Voxelmetric](http://alexstv.com/index.php/voxelmetric)
+Originally developed by [AlexSTV](https://alexstv.com)
 
 ## Features
 
@@ -30,4 +29,4 @@ Define new blocks in the scene with your own textures and even your own 3d mesh 
 3d voxel aligned pathfinding for units makes it possible for AI to move around the terrain.
 
 ## Development
-Voxelmetric is in development and is not yet at a 1.0 release, this means things are liable to change fast without notice or be broken and documentation will struggle to keep up.
+Vox(el)Met(ric) is in development and is not yet at a 1.0 release, this means things are liable to change fast without notice or be broken and documentation will struggle to keep up.
