@@ -30,6 +30,42 @@ public class VoxelmetricExample : MonoBehaviour
             transform.localRotation = Quaternion.AngleAxis(rot.x, Vector3.up);
            transform.localRotation *= Quaternion.AngleAxis(rot.y, Vector3.left);
         }
+        		if (Input.GetKeyDown(KeyCode.Alpha0))
+		{
+			blockToPlace = "air";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha1))
+		{
+			blockToPlace = "stone";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha2))
+		{
+			blockToPlace = "dirt";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha3))
+		{
+			blockToPlace = "grass";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha4))
+		{
+			blockToPlace = "log";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha5))
+		{
+			blockToPlace = "leaves";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha6))
+		{
+			blockToPlace = "wildgrass";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha7))
+		{
+			blockToPlace = "connected";
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha8))
+		{
+			blockToPlace = "custommesh";
+		}
     //    transform.position += transform.forward * 50 * Input.GetAxis("Vertical") * Time.deltaTime;
      //   transform.position += transform.right * 50 * Input.GetAxis("Horizontal") * Time.deltaTime;
 
