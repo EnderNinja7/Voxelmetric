@@ -30,3 +30,8 @@ Define new blocks in the scene with your own textures and even your own 3d mesh 
 
 ## Development
 Vox(el)Met(ric) is in development and is not yet at a 1.0 release, this means things are liable to change fast without notice or be broken and documentation will struggle to keep up.
+
+##Controls
+###Left-Click to place/destroy block
+---
+0 to dig, 1 for stone, 2 for dirt, 3 for grass, 4 for log, 5 for leaves, 6 for wildgrass, 7 for connected mesh and 8 for custom mesh.
