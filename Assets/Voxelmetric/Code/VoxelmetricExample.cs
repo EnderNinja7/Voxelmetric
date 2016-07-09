@@ -27,11 +27,11 @@ public class VoxelmetricExample : MonoBehaviour
                 rot.x + Input.GetAxis("Mouse X") * 3,
                 rot.y + Input.GetAxis("Mouse Y") * 3);
 
-//            transform.localRotation = Quaternion.AngleAxis(rot.x, Vector3.up);
- //           transform.localRotation *= Quaternion.AngleAxis(rot.y, Vector3.left);
+            transform.localRotation = Quaternion.AngleAxis(rot.x, Vector3.up);
+           transform.localRotation *= Quaternion.AngleAxis(rot.y, Vector3.left);
         }
-        transform.position += transform.forward * 50 * Input.GetAxis("Vertical") * Time.deltaTime;
-        transform.position += transform.right * 50 * Input.GetAxis("Horizontal") * Time.deltaTime;
+    //    transform.position += transform.forward * 50 * Input.GetAxis("Vertical") * Time.deltaTime;
+     //   transform.position += transform.right * 50 * Input.GetAxis("Horizontal") * Time.deltaTime;
 
         RaycastHit hit;
         var mousePos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
